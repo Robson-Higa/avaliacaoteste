@@ -7,7 +7,7 @@ const App = () => {
   const [red, setRed] = useState<number>(0);
   const [green, setGreen] = useState<number>(0);
   const [blue, setBlue] = useState<number>(0);
-  const [alpha, setAlpha] = useState<number>(0.1);
+  const [alpha, setAlpha] = useState<number>(1);
  
   return (
     <div className={style.panel}>
